@@ -1,7 +1,7 @@
 #include<stdio.h>
 int non_prime(int *arr,int p)
 {
-    int i,c=0,k=0,j,h;
+    int i,c=0,j,k=0,h;
     for(i=0;i<p;i++)
     {
         for(j=1;j<=arr[i];j++)
